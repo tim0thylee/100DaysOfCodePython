@@ -6,3 +6,4 @@ Not all days will be added, but the days completed will be listed below.<br/>
 
 Day 11: Blackjack Capstone Project<br/>
 Day 12: Number Guessing Game<br/>
+Day 14: Higher or Lower Game <br/>
