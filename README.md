@@ -9,5 +9,5 @@ Day 12: Number Guessing Game<br/>
 Day 14: Higher or Lower Game <br/>
 Day 15: Coffee Machine <br/>
 Day 16: OOP Coffee Machine <br/>
-Day 17: Quiz Game
-Day 18: Pycharm Turtle Module
+Day 17: Quiz Game <br/>
+Day 18: Pycharm Turtle Module </br>
