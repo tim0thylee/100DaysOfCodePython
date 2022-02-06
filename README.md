@@ -12,3 +12,4 @@ Day 16: OOP Coffee Machine <br/>
 Day 17: Quiz Game <br/>
 Day 18: Pycharm Turtle Module </br>
 Day 19: Pycharm Turtle Racing </br>
+Day 20: Pycharm Snake PArt 1 </br>
