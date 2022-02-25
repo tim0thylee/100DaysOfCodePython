@@ -1,41 +1,19 @@
-# import csv
-#
-# # bottom is to get rows of data. uses csv library.
-# with open("./weather_data.csv", mode="r") as file:
-#     data = csv.reader(file)
-#     temperatures = []
-#     for row in data:
-#         if row[1] != 'temp':
-#             temperatures.append(int(row[1]))
-#     print(temperatures)
+import turtle
 
-import pandas
+screen = turtle.Screen()
+screen.title("U.S. States Game")
+image = "blank_states_img.gif"
+screen.addshape(image)
+turtle.shape(image)
 
-data = pandas.read_csv("weather_data.csv")
-# prints the column (series) below
-print(data['temp'])
-# column is a "series" data type
-# entire data is a "dataFrame"
-data_dict = data.to_dict()
 
-temp_list = data["temp"].to_list()
+def get_mouse_click_coor(x, y):
+    print(x, y)
 
-# this will get the average.
-data["temp"].mean()
 
-#Get data from a specific row
-# print(data[data.day == "Monday"])
-print(data[data.temp == data.temp.max()])
+turtle.onscreenclick(get_mouse_click_coor)
 
-monday = data[data.day == "Monday"]
-print(monday.temp)
+answer_state = screen.textinput(title="Guess the State", prompt="What's another state's name?")
 
-#create data frame
-data_dict = {
-    "students": ["Amy", "James", "Angela"],
-    "scores": [76, 56, 65]
-}
-data = pandas.DataFrame(data_dict)
-
-#to turn into csv
-data.to_csv("new_data.csv")
+# keep screen open
+turtle.mainloop()
